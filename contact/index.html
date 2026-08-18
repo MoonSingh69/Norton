@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<title>Please Fill in The Form To Contact Us</title>
+		
+		<link rel="shortcut icon" href="images/favicon.ico" />
+		
+		<!-- CSS style -->
+		<link rel="stylesheet" type="text/css" href="css/ajax-contact-form.css" />
+		
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		
+		<!-- Ajax Contact Form JS -->
+		<script type="text/javascript" src="js/jquery.ajax-contact-form.js"></script>	
+	</head>
+	
+	<body>
+	
+		<!--
+		#########################################
+			- Ajax Contact Form / Start -
+		#########################################
+		-->
+		<div class="ajax-contact-form">
+			<div class="form">
+			
+				<div class="title">Have Some Questions?</div>
+				
+				<div class="form-holder">
+					<div class="notification canhide"></div>	
+										
+					<form id="frm_contact" name="frm_contact" action="contact.php.html" method="post">
+						
+						<div class="field">
+							<label for="name">Name<span class="required">*</span></label>
+							<div class="inputs">
+								<input class="aweform" type="text" id="name" name="name" />
+							</div>  
+						</div>
+						
+						<div class="field">
+							<label for="email">E-mail Address <span class="required">*</span></label>
+							<div class="inputs">
+								<input class="aweform" type="text" id="email" name="email" />
+							</div>  
+						</div>
+						
+						<div class="field">
+							<label for="phone">Phone <span class="required">*</span></label>
+							<div class="inputs">
+								<input class="aweform small" type="text" id="phone" name="phone" />
+							</div>  
+						</div>
+						
+						<div class="field">
+							<label for="message">Message <span class="required">*</span></label>
+							<div class="inputs">
+								<textarea class="aweform" id="message" name="message" rows="20" cols="5"></textarea>
+							</div>  
+						</div>
+						
+						
+						
+						<div class="form-submit">
+							<button type="submit" id="submit" name="submit">Submit</button>   
+						</div>
+						
+					</form>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		<!--
+		#########################################
+			- Ajax Contact Form / End -
+		#########################################
+		-->
+			
+	<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'97c69ec3cc9bd854',t:'MTc1NzQyMDIyMg=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+	
+</html>
